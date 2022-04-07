@@ -1,0 +1,26 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,400&display=swap');
+* {
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+   
+}
+.bg {
+    background: url('./picture/d.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: -30;
+    left: -30;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
+.loading-text{
+    font-size: 50px;
+    color: rgb(49, 201, 95);
+    align-items: center;
+    text-align: center;
+}
